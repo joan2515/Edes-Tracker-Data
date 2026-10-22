@@ -1,0 +1,5532 @@
+[
+  {
+    "id": "9d7cbeb8e5",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Caballona",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "77353b4c53",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Buenas Noches Palavee",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "438480bf62",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Santa Rosa",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ddfb9c466c",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Hato Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7eb64e4201",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Los Americanos (Los Angeles)",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c9f6ff53b2",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Bienvenido",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d0bfc32758",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Pared",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7888d3e505",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Monte Adentro",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "00196a4170",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Teresandon",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5d06ac01eb",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Los Barrancones Los Frias",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2481b0261c",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Cruce De La Feliciana",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f57036155c",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Nuevo Amanecer",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4ad39ad88e",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Nazareno",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ce2b395a71",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Lebrón",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b4f66466ef",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Guáyiga",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0ff1e043c6",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Canta La Rana",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "412a0199a1",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Los Libertadores",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ce2b395a71",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Lebrón",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a12b75dd9f",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Fe",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e9313f981a",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Pueblo Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ba6c1e2e3d",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Ciénaga",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d636964e94",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Savica",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bc37756138",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Paraiso",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ab2d05641c",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Las Mercedes",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2609d00b00",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Altos De Chavón",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fbb48bd114",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Piña",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e91b8aeb0a",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Unión",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "763f0499d6",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Esperanza",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0c64d375ee",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Rieles del CAEI",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5016f81053",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Caoba de Yaguate",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b989116aec",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Pajarito",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "43ff5272e1",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Haitices de Yaguate",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a258052993",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Cabría Abajo",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2faf55c7f0",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Palenque (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e79cc35c47",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Niza",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "03b95b633c",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Najayo al Medio (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "34edd8a07f",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Miracielo",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "832acaeeff",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Najayo la Playa",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d7b58495bd",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Duveaux",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f99b7a8ab6",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Loma",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e3b0c5b0b9",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Ingenio Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ea7afdc98b",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Najayo al Medio",
+    "circuito": "EDESUR",
+    "fecha": "sábado 17 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "75814d5193",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Villarpando",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "778ef8a9f9",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Canoa",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "da647fe4cc",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "El Coroso",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7e9bd05d8a",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Mallita",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "be78ba9ca6",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Los Toros",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ae0c1de415",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Guanábana",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d614502d27",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Amiama Gömez",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ddc325fda8",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Tábara Arriba",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5260c47ebe",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Canoa",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7f972a91a1",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Bastida",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e1980934dc",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Arroyo Salado",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "336bcd3f0f",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Las Yayas de Viajama",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d14335a1fb",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Orégano Grande",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a8a58a3d01",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Magueyal",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d69105abb2",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Hato Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3d13d23889",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Vietnam",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c09628c0ff",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Sajanoa",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b038e71f50",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Azua",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1ba3f20450",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Pueblo de Salina de Barahona",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7323198436",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Los Saladillos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "af727e6679",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Pueblo de Cristóbal",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "382fd0ea71",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Puerto Escondido",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ad5734a229",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Pueblo de Duvergé",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d33452926b",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Vengan a Ver",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e5362c903b",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Mella",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9ddbf0d1f5",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Barrio Japón",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "07289d8331",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Pueblo de La Colonia de Duvergé",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "238bef477c",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Angostura",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e5bcd03e9d",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Ranchitos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 03:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7fa7a9714c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Mallitas (Las Bocainas)",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 03:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "cd06f45d74",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Cruce De Ocoa",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 03:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b337f9d1d8",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. 30 de Mayo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "24463e079d",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Los Melones",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c0ce0620ba",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "las calles Santome",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "78dca75ff4",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "las Mercedes y Presidente Victoria del Bo. Santa Cruz",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0d5bd54672",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Luz Marina",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "12afa661f0",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Pueblo Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "594050ac3c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Máximo Gómez",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b1a4d8f0cf",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Maní",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "43c180b91a",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "La Montería",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "94fe0ff56d",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "La Saona",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e63919f351",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Cajuilitos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a0cfb9913b",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Fundo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5312c73212",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Guazuma 2da.",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4103013b87",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Barracones",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c95d2adb1a",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Villa Güera",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "308f14c4c7",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Pueblo Nuevo (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a378e9704f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Cañafistol",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fd86b7ad7d",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Galeón",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "105e728d32",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Barracones",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f34fa9c00f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Calabaza",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b04e47e201",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Angostura",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6a464a9477",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Tablazo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "219a3df7d1",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Sombrero",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "44357b6ad0",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Jobos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5e3bce8dd3",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Sector La Jabillita",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b0d669246c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Los Laureles",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "701a104f8e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Escondido",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "54278f3ae1",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Finquita Gloria",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4a5fa565ff",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Paya",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9f807ccce2",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Ojo de Agua",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c5135b5798",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Mata Gorda",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "239b516e53",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Anabel",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2d00661a45",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Meloncitos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5b04f15ed0",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Peravia",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c98f3236d9",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Fundación de Peravia",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ddf7c2f797",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Río Arriba",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "91e046db4e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "La Gina",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ca3e33243c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Yayitas",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5591195e7e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Limonal",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "10151994de",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "La Vereda",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "24c1c43cec",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Arroyo Salado",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "74b59a43e2",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Recodo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "00bb671b84",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Salinas",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "80c05c03ca",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Quijá Quieta",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3c1088f55c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "San José",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7583135cf9",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Tumbaos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "996362b86c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Golfo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9fb5c2526e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Calderas",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2e9d49ca91",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Sabana Buey",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3d8cdfaaa9",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Palmar De Ocoa",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "394897cf6f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Duvergé",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "20daca8029",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Hato Fino",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "60bfbb2983",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Millón",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9851a26008",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "La Cuesta",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "92573592c8",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Madre Vieja Del Sur (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5e1b398726",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "San Miguel",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b746ceb8cf",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Zumbón",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "08:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "210052edce",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Punta Caña",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "598404a572",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Garita",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f77a5e1cdb",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Higuera",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a45c733dd2",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Nicolás",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4d512ed939",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Joca",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0c5cad550a",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Recta",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7afd5d94b3",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Cabeza De La Sabana",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "84e3863d27",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Matayaya",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "584bb5fe94",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Militar",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "777e0a39f7",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La E",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "08aa4063f0",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Higüero",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "084720c439",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Arroyo Salado",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7596b6c9c9",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Planta",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2ae7746fda",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "El Gajo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8121ae9072",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Yareyes",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f265612259",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Guayabal",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "730cdc8d08",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Palma",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9becbc2a1b",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Hato Viejo",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f6b99745d0",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Jobos",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3dd1aee0c4",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Sabana Larga",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f9f0e96933",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "El Cantón",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e689f9cfc3",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "La Guáyiga",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "14314d31d4",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Noroeste",
+    "circuito": "EDESUR",
+    "fecha": "lunes 19 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "473e9f5e0a",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Noroeste",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d7abd9fbae",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Sabana o Pueblo Abajo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "559e60eb98",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Nuevo o Detras Del Cementerio",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d3f5c43b1a",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Tunita",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ae54810f1e",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Palero",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7cace6d2c4",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Centro Del Pueblo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d2b0eaa061",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Los Cartones",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ba5ad4e445",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Azua",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a604f5832f",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Placer Bonito",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "442a12f726",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Las Flores",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "43a68ace0d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Bo. La 40",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "895982c695",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Bo. San Juan Bautista",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "97fbe9f01e",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Barrio Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "36c6835f70",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Juan Esteban",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "76b3f6355d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "El Payaso",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "26bfa3e4fc",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Santa Elena",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c0d6d9bf70",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "El Arroyo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d8fde9dde5",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Bahoruco",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "370040e117",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Ciénaga",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "db71477321",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Los Guayuyales",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3e0f28eeb5",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Villa Nueva",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c02af2ecc5",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Barrio Casandra",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "791a53170d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Baitoita",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "dbf398d9d0",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Felipina",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3095c20f2d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Juancho",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b0dfc1ea32",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Oviedo Norte",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0252bd6191",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Noroeste",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9dca33a1f1",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Manuel Goya",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "16da6d5d1d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Pedro Mota",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5f8030bfa6",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Oviedo Sur",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "99d1154b22",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "El Cajuil",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a38ab6b3f1",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Los Tres Charcos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "791d255702",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Colonia Villa Esperanza",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "52c2acca6e",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Barahona",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ece75a7a5f",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Los Prados",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "eba4f9395e",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Los Jardines",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9ee21014c6",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Enriquillo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9d184c32ee",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Juan Pablo Duarte",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b5a6b0f098",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "San Geronimo Los Ríos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7d92dd16f6",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "San Geronimo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9fb8e42dc7",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "El Millón",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ecddcf445a",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Los Restauradores",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "62dd392c88",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Quisqueya",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ecddcf445a",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Los Restauradores",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4f330ee7fc",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Savica",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a5cb4bb7f2",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Centro del Pueblo de Pedernales (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c2fc909601",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Cayucos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3f3f418dd0",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Robles",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "35e93e7eca",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Alcoa",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f30ce84748",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Catalina",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4f4c947a40",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Pujabante (Pujavante)",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "cbd69907d1",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Las Gallardas",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ba0c38ffb3",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Sierra",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "98b33d9f13",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Joya",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "14e5645e4d",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Maná De Maizal",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "309ddaacff",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Batey 43",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0bb9099374",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Aguacero",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "328bf6c5f4",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Sabana Caobal",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9bfd450af2",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Lechería",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "620c2de493",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Medina",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e97e8aaa4d",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Cidral",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a197c760b9",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Jamey",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5e6cd96870",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Montones",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "288da09d07",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Colonia",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bd641760a7",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Castaño",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "287b772917",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Ramón",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ac293bf524",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Loma Verde",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "90b7c87623",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Baní",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0f2c494a01",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Reinoso",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3325e5c959",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Cidral (La Represa)",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b949b61308",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Hato Damas",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a599cd4135",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Las Cuchillas",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b44d6c175d",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Rosa",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d0020b1d5c",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Conucos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bc735e2dcc",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Hoyos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b53406a9d8",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Guano",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "df985057c0",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Caobal",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "490e7e1cbd",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Guachupita",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ed3a224b27",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Mosquitos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "555a0d54a4",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Hondo Valle",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bfc99298a5",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Pedrero",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6be73a3404",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Algarrobos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3e7273ba3f",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Multifamiliares",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "86433c22b5",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "San Isidro",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e45c8ade47",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Novas",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bedd0dff58",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Pueblo Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7287cb3d16",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Bo. Puerto Rico. Urb. Vidaliana",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9d7fb05b6e",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Urb. Shalom",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "93af3d1528",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Urb. Gran Jinete",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "875bd0adac",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Guandulera",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "661595bfd9",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "5 de Abril",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7f41446370",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Molinas",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "240a75ed3c",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Villa Fundación",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a8bb11641c",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Calle Bonita",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b5209c92a6",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "San Francisco",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "41f7e7bbc1",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "El Ramón",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9a2abb3208",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Vereda",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f17021fab7",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Coco del Yaque",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f2b4ff1914",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Loma del Yaque",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9d77633540",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Buena Vista del Yaque",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "955946e760",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Palmar",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "55880614b6",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Arroyo Cano",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "79ec05bdfa",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Bohechío",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b57fbcc29b",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Frios",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8d25670301",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Buena Vista",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ddc5cab00b",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Maguana",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "798ddecc66",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Dormidero",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7b7e13bfd5",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Copeyes",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4ba2f06b1b",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Corocitos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "51635e2695",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La China",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "632e864075",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Severino",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e352839d9d",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Carrera Bonita",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8d31d6dca1",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Cercadillos",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f7765c6958",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Estancia",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "93a930a1f5",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Pajonal",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "23793ba5fa",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Guazumal",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "886f319c0e",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Pan De Azúcar",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1cbf8e99b7",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Carrera De Limón",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b6cb4cea5e",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Manoguayabo",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8eeb28a509",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "San Miguel",
+    "circuito": "EDESUR",
+    "fecha": "martes 20 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "95049dc3f7",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Monte Bonito",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "055e5e0a99",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Siembra",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "94bf73dce0",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Guayabal",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e5e480ba07",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Padre Las Casas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ba236b79cb",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Las Lagunas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "aa0d118bc8",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Periquito",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "77be738b6a",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Km. 11",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9bba52b5ef",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Los Jobillos",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "777ca20097",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Orégano Chiquito",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7a5ccef190",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Plena",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a6936103c9",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Las Barías",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "03e081a089",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Távara Abajo y Zonas Aledañas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "defcc62738",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "El 15 de Azua",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "99d1c5ef46",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Sabana Yegua",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b8fec4def2",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Ansonia",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a4f49d5006",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Ceiba",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "19a2cca76f",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "El Estero",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "46723a32f1",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Villa Jaragua",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "cfc66c0bf1",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Los Ríos",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ac59b37cfc",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Descubierta",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f08c7f07cd",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Boca de Cachón",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bce947b9b9",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Guayabal",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8197ecc667",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Las Clavellinas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1bb8e5423e",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Postrer Río",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "372f0ddb24",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Bartolomé",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bfe1912dd8",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Las Madres",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "96a93e34be",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Los Pinos del Edén",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "12aaee30c6",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Boca de Cachón Nuevo y Tierra Nueva de Jimaní",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ccc004630a",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "El Limón de Jimani",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "36d8ccb887",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Mal Paso",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "54c302c148",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Las Baitoas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3ca1fb2636",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Honduras (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "74f5a7e0eb",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "sector": "Nuestra Señora De La Paz",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a950710cea",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Villa Armonía",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2928181233",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Villa Solidaridad",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4a18743274",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "La Cincuenta",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4864a2f1bd",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Jimaní Viejo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d3769caa3b",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "El Cerro",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e7b5e8dc63",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Bo. Invi",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ea2510127a",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Arroyo Blanco",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6ce56ccb78",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Espartillo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5251a13fda",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "La Q",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a591a5f313",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Cabral",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "faaca43d18",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "La Lista",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "45a46cbe59",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Polo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "617a1fd4e7",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Loma de la Hoz",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d8f2cbb57a",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "El Naranjo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "cb43325f55",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "La Lanza",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "983db41898",
+    "provincia": "Independencia",
+    "municipio": "Independencia",
+    "sector": "Las Auyamas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "41325e5759",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Savica",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a216b1ae45",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Centro del Pueblo de Pedernales (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ac927a13cb",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Cayucos",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "62256a36a4",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Robles",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "86cdeb99fe",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Alcoa",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "166805507f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Santa Elena",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9ace1f61ac",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Jose del Carmen",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6a00d563f8",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Residencial Los Framboyanes",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f6e72b07e5",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Pájaro Herido",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2349447d94",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Rafa Pimentel",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bd1c3f16fa",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Villa Real",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1a788ca434",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. San José",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "889e2bca5f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Don Luis",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d6f2e29c9e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Villa Real 2",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a4ceace3c6",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Dulce María",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4c941eb43a",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Resid. María del Carmen",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1bdd262651",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Erneisa",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a3c20010db",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Peravia",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d57b0649f9",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Agrónomos",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8ea3d35ce9",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Luz Marina",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "19eb3b24ea",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Costa Sur",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5538221b8a",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Matanzas",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2a69370991",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Washington",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "00eb4beafd",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Robles",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5345ca292c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Santa Rosa",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fbadbb2dc5",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Brisas del Canal",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "51efbb7c87",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. BHD",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1461b87023",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Valera Guzmán",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "54c4dba7c2",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Palo Alto",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e0216bf4b8",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Boca Canasta",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2ab368b6e5",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Almendros",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "28b7dc39a8",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Corbanal. Sector Santa Cruz (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "31d22a30d1",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Sector El INVI (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "04d632eaa6",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Brisas del Canal",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0df8ede483",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Villa Majega",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fd57011558",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Pueblo Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "44026ee06a",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Valera Guzmán (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "51efbb7c87",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. BHD",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5345ca292c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Santa Rosa",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "04d632eaa6",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Urb. Brisas del Canal",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b1d53efb98",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Marías",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b25c1dbd89",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Margarita",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e3b2b533be",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Costa del Sol",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0fc4e780dd",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Palo Blanco",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "97104f73ba",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Res. Nuevo Milenio",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "754d87d92c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Catalina",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9dd764c992",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Pinos",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b48a68fba3",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Carretón",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b46037fc31",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Limonal",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b57576d00f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Sabana Larga",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "21ac46ab21",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Batey 43",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "90752ac7c0",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Rieles del CAEI",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bc2d159fd7",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Caoba de Yaguate",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e73e82c08a",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Pajarito",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d7c43e34fb",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Haitices de Yaguate",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8ab13135b6",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Cabria Abajo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d119e8d5b9",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Palenque (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2eb038b30e",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Niza",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "776edbbe3c",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Najayo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ef56593b1e",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Miracielo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "092c578b98",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Duveaux",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "eefc2df290",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La loma",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7dde373c25",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Ingenio Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2d6ffb6aa7",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "San Miguel",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b13dcdcfbc",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Cajuilito Norte",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "844459e883",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Noroeste",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5f7ac4acaa",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Pantoja (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "miércoles 21 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f628dd5faa",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Noroeste",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8e2c866c9c",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Sabana",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f5a2b06820",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Pueblo Abajo",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "96ca9d4c40",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Nuevo",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "67be6a227c",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Tunita",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "26ba92af28",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Palero",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d9f47adc88",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Los Cartones",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "55830618eb",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Azua",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e2e1dc21bc",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Placer Bonito",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0dfb7bcfe8",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Las Flores",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8ddb26288f",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Los Negros",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "06fa100cbb",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Proyecto 4",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b01f306b9b",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "El Rosario",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f42f7b9424",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "La Ciénaga",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "45970a7b21",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Nuevo Curro",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "921d44014c",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "sector": "Barrera",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9e5af7bd70",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Juancho",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3306b7c2b6",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Oviedo Norte",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "55ed625ff2",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Noroeste",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a7d024edb1",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Manuel Goya",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "21b65600af",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Pedro Mota",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1f1e04a7bd",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Oviedo Sur",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c2a0268c10",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "El Cajuil",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8fcc067d4d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Los Tres Charcos",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f63cc3031d",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Colonia Villa Esperanza",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "dd4b27d9e1",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "sector": "Barahona",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "10:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4f2e0eb45b",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Inés",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1aa3b2aa8c",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Nicolás Felix",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d55f605eaa",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Miramar",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0795a12ae4",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Villa Del Mar",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e05ca44407",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Robles",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6a3540ded8",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Guayacanes",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c7a1c54968",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Las Flores",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7c0ce44a2e",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Centro del Pueblo",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3a0706fa07",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Militar",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "978cd7a5ab",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Alcoa",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b2de3e2f9a",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Cabo Rojo",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e66dda10db",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Las Mercedes",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1aa3b2aa8c",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Nicolás Felix",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fe70cc4354",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Altagracianos",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ad264d0dd1",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Bo. José Francisco Peña Gómez",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0cbee3fa66",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Paso de Sena",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "23079179c7",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Altagracia",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1249f3a441",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Campo de Aviación",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "05061fdb64",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "las Mercedes",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fb9895ac3c",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Robles",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a581fe31b4",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Guayacanes",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a43d0dbafa",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Bo. Nicolás Félix",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5d2b5255ba",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Las Mercedes",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b205c115d6",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Bo. Alcoa",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8a13e89407",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Bo. Las Flores",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fa37ec6e72",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Savica",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "76318b827b",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Centro del Pueblo de Pedernales",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e63ccc32a2",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "sector": "Los Cayucos",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "53847987ff",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Gualey",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "12ffecb46c",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "El Roblegar",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4465bba913",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Brisas Del Canal",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4d1bc05037",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Compuerta De Lico",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "281e1df54d",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Pueblo Nuevo (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f2eac31bd5",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Lavapiés (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a387b27ed7",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Bo. San Antonio",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a68391c31a",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Acises",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4f02e5c45a",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Canastica",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "bdccfa0480",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Niza",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8d80d5a90c",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Anacagüita",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5857f46636",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Centro del Pueblo (La Placeta)",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "34fd153882",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Barrancones Los Frias",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "aadd1696f3",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Los Serranos",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "92dcc9ed46",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Cabeza De Toro",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ba1920f78b",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Colonia",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a552b6b759",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Juan Santiago",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a63d5c3d03",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Sahonada",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "50ef71ee39",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "La Cienaga",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "61979894ce",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Guachupita",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "be86400225",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Rancho De Pedro",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6ac1a0b1f5",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Majaos",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "64691902ce",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Juan De La Cruz",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "b95121d545",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Rancho de La Guardia",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "c966df8436",
+    "provincia": "San Juan",
+    "municipio": "San Juan",
+    "sector": "Los Guineos",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "dd90279551",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Manoguayabo",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "da400dd753",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "San Miguel",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "84801530a4",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Alameda",
+    "circuito": "EDESUR",
+    "fecha": "jueves 22 de octubre, 2026",
+    "horario": "09:00 a. m. a 04:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "974c03b865",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Tierra Nueva",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d8c7a21817",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Guayabal",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9de7ee9487",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Boca De Cachón",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "72f6b1c845",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Tamayo",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a6ceaba6fa",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Santana",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ff472b6939",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Cunuquito",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7384d26c51",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Monserrate",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "50b618853a",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "San Ramón",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3cb8fa47f8",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "El Jobo",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "ed731cf8cb",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Mena",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "647879d3b1",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Peñón",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7fb87d34e6",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Fundación",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "61ffebf152",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Palo Alto",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "87a0989518",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Jaquimeyes",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "510d70d1a3",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Canoa",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5a27bce178",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Altamira",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e4b6c59635",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Arroyo Seco y Bombita",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7a74493da9",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Los Robles",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3e69aaf818",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Uvilla",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "cbbaf43af0",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Batey 1",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fb0bdeec0d",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "2",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1b3562e972",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "3",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "63c75268f1",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "4",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "039bd2fe36",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "5",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "241e242f57",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "6",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "48f1041e3a",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "7",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "466ceceba3",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "8",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "15caddf9fb",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "9",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "01fdc82c3d",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "La Isabela",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "84511421f0",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Cuchilla",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "812b7f54c4",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Bayahonda",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6b70989a24",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Barranca",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "74b4a50ad7",
+    "provincia": "Bahoruco",
+    "municipio": "Bahoruco",
+    "sector": "Batey Altagracia",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "478fdb7e64",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Santana Sur",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "78d15f7040",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Nizao y Covacasa",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "35dfa4802f",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Don Gregorio de Nizao",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8f30b6e507",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Juan Barón",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2cfbfe4247",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Bo. Los Cartones",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "39a6ac635e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Proyectos",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9a338d0479",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Clavellinas",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5dc12cce5e",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Las Terreras",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "7239317db2",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Pueblo Viejo",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3b9cf43549",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Finca 6",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "32402c3c89",
+    "provincia": "Peravia",
+    "municipio": "Peravia",
+    "sector": "Los Tramojos",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "02:00 p. m. a 06:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5e1cb97252",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "Cambita Pueblecito",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4c2900f765",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Sierra",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "77e495524e",
+    "provincia": "San Cristóbal",
+    "municipio": "San Cristóbal",
+    "sector": "La Manigua",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "01:00 p. m. a 05:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "21e7f07d39",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Arroyo Palma",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "23228e4faa",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Sabana de Los Castillos",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6f7facc3cb",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Rincón del Pino",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "0271fc08cc",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Barrio San Rafael",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4b95dfbdf8",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Barrio Los Maestros",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fe8f2d1a73",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Barrio San Antonio",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "451190e957",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Los Tramojos",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "cb61c27c2a",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Damajagua",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "17c4b14f78",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "La Isleta",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "d000315dce",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "El Pinar",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "09c1c56687",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Las Flores",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "afab8b0e87",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "La Ciénaga",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "fdd89fff06",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Parra",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "2519abd840",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Sabana Larga",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9beda14b9b",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "El Naranjal",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "516f06bfbd",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Las Malaguetas",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "6b496c3fb8",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Los Arroyos",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "8c39b60b71",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "Los Almendros",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a90875b7b4",
+    "provincia": "San José de Ocoa",
+    "municipio": "San José de Ocoa",
+    "sector": "La Horma",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 02:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "216f117df9",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Las Caobas (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5303f02438",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Res. Ureña",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "5c578a3bf4",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Res. Loyola",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "e1405138ce",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Res. Colibrí",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "dd7c3acdee",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Los Olivos",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "f068fd628f",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Iván Klan Guzmán",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4c83b28fe5",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Res. Rosa María",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1cfe39b4c2",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Bo. La Canela",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a248815d7f",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Villa Universitaria",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "a885ccbeb5",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Res. PLD",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "3794a33212",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Colinas del Oeste",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "efc8c8032e",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Bo. La Rosa (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "65875f3d70",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Proyecto Codetel",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "1eae544e14",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Res. Luz Divina (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "9a2f9deeda",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Buenos Aires de Herrera (parcial)",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "08:00 a. m. a 12:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  },
+  {
+    "id": "4d193eb8b0",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo",
+    "sector": "Los Humildes",
+    "circuito": "EDESUR",
+    "fecha": "viernes 23 de octubre, 2026",
+    "horario": "09:00 a. m. a 01:00 p. m.",
+    "motivo": "Mantenimiento preventivo"
+  }
+]
