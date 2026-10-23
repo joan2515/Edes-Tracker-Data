@@ -1,110 +1,138 @@
+import hashlib
 import json
 import re
 from bs4 import BeautifulSoup
 import requests
 
-URL_EDESUR = "https://edesur.com.do/interrupciones-programadas/"
+URL_EDESUR = (
+    "https://www.edesur.com.do/enlaces-empresa/mantenimientos-programados/"
+)
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,"
         " like Gecko) Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    )
 }
 
 
-def limpiar_texto(valor):
-    if not valor:
+def limpiar_texto(texto):
+    if not texto:
         return ""
-    return " ".join(str(valor).replace("\n", " ").split()).strip()
+    return re.sub(r"\s+", " ", texto).strip()
 
 
 def extraer_mantenimientos_edesur():
-    """Consulta la tabla oficial de interrupciones programadas de Edesur y devuelve una lista estandarizada."""
+    """Extrae los mantenimientos respetando la estructura de acordeones y tabs de Edesur."""
     print("[*] Consultando portal de Edesur...")
-    resp = requests.get(URL_EDESUR, headers=HEADERS, timeout=25)
-    resp.raise_for_status()
+    try:
+        response = requests.get(URL_EDESUR, headers=HEADERS, timeout=20)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"[!] Error al descargar la página de Edesur: {e}")
+        return []
 
-    soup = BeautifulSoup(resp.text, "html.parser")
-    mantenimientos = []
-    contador_id = 1
+    soup = BeautifulSoup(response.text, "html.parser")
+    registros = []
 
-    # Localizar la tabla principal de Edesur
-    tabla = soup.find("table")
-    if not tabla:
-        print("[!] No se encontró tabla en la página de Edesur.")
-        return mantenimientos
+    # 1. Extraer los días (tabs/botones) vinculados por contenedor
+    accordions = soup.find_all("div", class_=lambda c: c and "accordion" in c)
 
-    filas = tabla.find_all("tr")
-    if len(filas) < 2:
-        return mantenimientos
+    for acc in accordions:
+        fecha_texto = "Semana actual"
+        tab_parent = acc.find_parent(
+            "div", class_=lambda c: c and ("tab-pane" in c or "fade" in c)
+        )
+        if tab_parent and tab_parent.get("id"):
+            boton_tab = soup.find(
+                attrs={"data-bs-target": f"#{tab_parent.get('id')}"}
+            ) or soup.find(attrs={"href": f"#{tab_parent.get('id')}"})
+            if boton_tab:
+                fecha_texto = limpiar_texto(boton_tab.get_text())
 
-    # Detección de índices según cabecera
-    indices = {
-        "circuito": 0,
-        "provincia": 1,
-        "municipio": 2,
-        "sector": 3,
-        "fecha": 4,
-        "horario": 5,
-        "motivo": 6,
-    }
+        # 2. Recorrer cada item del acordeón (Provincias)
+        items = acc.find_all(
+            "div", class_=lambda c: c and "accordion-item" in c
+        )
+        for item in items:
+            h4_tag = item.find("h4")
+            provincia = (
+                limpiar_texto(h4_tag.get_text()) if h4_tag else "Santo Domingo"
+            )
 
-    cabecera = [limpiar_texto(th.get_text()).lower() for th in filas[0].find_all(["th", "td"])]
-    if cabecera:
-        for idx, col in enumerate(cabecera):
-            if "circuito" in col:
-                indices["circuito"] = idx
-            elif "provincia" in col:
-                indices["provincia"] = idx
-            elif "municipio" in col:
-                indices["municipio"] = idx
-            elif "sector" in col or "zona" in col:
-                indices["sector"] = idx
-            elif "fecha" in col:
-                indices["fecha"] = idx
-            elif "hora" in col or "periodo" in col:
-                indices["horario"] = idx
-            elif "motivo" in col or "trabajo" in col or "causa" in col:
-                indices["motivo"] = idx
+            body = item.find(
+                "div", class_=lambda c: c and "accordion-body" in c
+            )
+            if not body:
+                continue
 
-    for fila in filas[1:]:
-        columnas = [limpiar_texto(td.get_text()) for td in fila.find_all(["td", "th"])]
-        if not columnas or len(columnas) < 4:
-            continue
+            titulos_zona = body.find_all(
+                "h5", class_=lambda c: c and "title-zona" in c
+            )
 
-        def obtener(clave, def_val="N/A"):
-            pos = indices.get(clave)
-            if pos is not None and pos < len(columnas) and columnas[pos]:
-                return columnas[pos]
-            return def_val
+            for tz in titulos_zona:
+                texto_horario = limpiar_texto(tz.get_text())
 
-        sector = obtener("sector")
-        circuito = obtener("circuito")
-        if sector in ["", "N/A"] and circuito in ["", "N/A"]:
-            continue
+                # Extraer rango de hora (ej: "09:00 a. m. a 02:00 p. m.")
+                horario_match = re.search(
+                    r"(\d{1,2}:\d{2}\s*(?:a\.\s*m\.|p\.\s*m\.)\s*a\s*\d{1,2}:\d{2}\s*(?:a\.\s*m\.|p\.\s*m\.))",
+                    texto_horario,
+                    re.IGNORECASE,
+                )
+                horario = (
+                    horario_match.group(1) if horario_match else texto_horario
+                )
 
-        prov = obtener("provincia", "Santo Domingo")
-        mun = obtener("municipio", prov)
+                # El texto de sectores es el siguiente párrafo <p> no vacío
+                parrafo_sectores = tz.find_next_sibling("p")
+                while parrafo_sectores and not limpiar_texto(
+                    parrafo_sectores.get_text()
+                ):
+                    parrafo_sectores = parrafo_sectores.find_next_sibling("p")
 
-        mantenimientos.append({
-            "id": f"edesur_{contador_id}",
-            "distribuidora": "EDESUR",
-            "provincia": prov,
-            "municipio": mun,
-            "circuito": circuito,
-            "sector": sector,
-            "fecha": obtener("fecha"),
-            "horario": obtener("horario"),
-            "motivo": obtener("motivo", "Mantenimiento preventivo"),
-        })
-        contador_id += 1
+                cadena_sectores = (
+                    limpiar_texto(parrafo_sectores.get_text())
+                    if parrafo_sectores
+                    else ""
+                )
 
-    print(f"[✓] Edesur: {len(mantenimientos)} cortes extraídos.")
-    return mantenimientos
+                # Separar los sectores por coma para granularidad en la app
+                lista_sectores = [
+                    s.strip() for s in cadena_sectores.split(",") if s.strip()
+                ]
+
+                for sector_individual in lista_sectores:
+                    id_raw = f"{provincia}-{sector_individual}-{fecha_texto}-{horario}"
+                    id_hash = hashlib.md5(id_raw.encode("utf-8")).hexdigest()[
+                        :10
+                    ]
+
+                    registros.append({
+                        "id": f"edesur_{id_hash}",
+                        "distribuidora": "EDESUR",
+                        "provincia": provincia,
+                        "municipio": provincia,
+                        "circuito": "Circuito Edesur",
+                        "sector": sector_individual,
+                        "fecha": fecha_texto,
+                        "horario": horario,
+                        "motivo": "Mantenimiento preventivo",
+                    })
+
+    print(f"[✓] Edesur: {len(registros)} sectores con mantenimientos extraídos.")
+    return registros
 
 
-if __name__ == "__main__":
+# Alias para retrocompatibilidad con el nombre anterior
+parsear_mantenimientos = extraer_mantenimientos_edesur
+
+
+def main():
     datos = extraer_mantenimientos_edesur()
     with open("mantenimientos_edesur.json", "w", encoding="utf-8") as f:
         json.dump(datos, f, ensure_ascii=False, indent=2)
+    print("[✓] Guardado en mantenimientos_edesur.json")
+
+
+if __name__ == "__main__":
+    main()
