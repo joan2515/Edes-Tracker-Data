@@ -1,41 +1,33 @@
-name: Actualizar Mantenimientos Edesur
+name: Actualizar Mantenimientos Eléctricos
 
 on:
   schedule:
-    # Se ejecuta cada 6 horas automáticamente
-    - cron: '0 */6 * * *'
-  # Permite ejecutarlo manualmente desde la pestaña Actions
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 */6 * * *' # Cada 6 horas
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
 
 jobs:
-  scrape-and-update:
+  scrape-and-publish:
     runs-on: ubuntu-latest
-
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar entorno de Python
+      - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Instalar dependencias
         run: |
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4 pdfplumber pandas openpyxl
 
-      - name: Ejecutar scraper
-        run: |
-          python scraper.py
+      - name: Ejecutar Extractor Unificado
+        run: python main_scraper.py
 
-      - name: Guardar cambios si hay datos nuevos
+      - name: Subir cambios al repositorio
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add mantenimientos.json
-          git commit -m "chore: actualizacion automatica de mantenimientos [skip ci]" || exit 0
+          git commit -m "Auto: Actualización de mantenimientos [skip ci]" || exit 0
           git push
