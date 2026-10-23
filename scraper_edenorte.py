@@ -59,3 +59,185 @@ def formatear_fecha(valor):
 def formatear_hora(valor):
     """Convierte horas al formato estándar '4:00 p.m.'."""
     if pd.isna(valor):
+        return ""
+
+    if isinstance(valor, time):
+        h, m = valor.hour, valor.minute
+    elif isinstance(valor, (datetime, pd.Timestamp)):
+        h, m = valor.hour, valor.minute
+    else:
+        val_str = str(valor).strip()
+        match = re.match(r"^(\d{1,2}):(\d{2})", val_str)
+        if match:
+            h, m = int(match.group(1)), int(match.group(2))
+        else:
+            return val_str
+
+    periodo = "a.m." if h < 12 else "p.m."
+    h12 = 12 if (h == 0 or h == 12) else (h % 12)
+    return f"{h12}:{m:02d} {periodo}"
+
+
+def obtener_url_ultimo_excel(session: requests.Session):
+    """Rastrea el portal de EdeNorte para obtener la URL del archivo Excel semanal."""
+    print(f"[*] Consultando portal de EdeNorte: {URL_EDENORTE}")
+    resp = session.get(URL_EDENORTE, headers=HEADERS, timeout=25)
+    resp.raise_for_status()
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    url_publicacion = None
+
+    for link in soup.find_all("a", href=True):
+        href = link["href"].strip()
+        texto = link.get_text(strip=True).lower()
+
+        if "mantenimientos-programados" in href.lower() or "mantenimiento" in texto:
+            url_publicacion = urljoin(URL_EDENORTE, href)
+            break
+
+    if not url_publicacion:
+        url_seccion = urljoin(URL_EDENORTE, "mantenimiento-de-redes/")
+        resp_sec = session.get(url_seccion, headers=HEADERS, timeout=25)
+        if resp_sec.ok:
+            soup_sec = BeautifulSoup(resp_sec.text, "html.parser")
+            for link in soup_sec.find_all("a", href=True):
+                href = link["href"].strip()
+                if "mantenimientos-programados" in href.lower():
+                    url_publicacion = urljoin(url_seccion, href)
+                    break
+
+    if not url_publicacion:
+        print("[!] No se encontró el enlace de la publicación semanal.")
+        return None
+
+    print(f"[*] Entrando a la publicación: {url_publicacion}")
+    resp_post = session.get(url_publicacion, headers=HEADERS, timeout=25)
+    resp_post.raise_for_status()
+
+    soup_post = BeautifulSoup(resp_post.text, "html.parser")
+
+    for link in soup_post.find_all("a", href=True):
+        href = link["href"].strip()
+        if href.lower().endswith(".xlsx") or href.lower().endswith(".xls"):
+            url_excel = urljoin(url_publicacion, href)
+            print(f"[✓] Enlace de Excel encontrado: {url_excel}")
+            return url_excel
+
+    print("[!] No se encontró enlace de descarga de Excel en el post.")
+    return None
+
+
+def extraer_datos_excel(contenido_bytes):
+    """Lee el Excel y separa las zonas delimitadas por comas en registros individuales."""
+    excel_file = pd.ExcelFile(io.BytesIO(contenido_bytes))
+    print(f"[*] Hojas disponibles en el archivo: {excel_file.sheet_names}")
+
+    if "Publicacion Externa" in excel_file.sheet_names:
+        hojas_a_procesar = ["Publicacion Externa"]
+    else:
+        hojas_a_procesar = [h for h in excel_file.sheet_names if "resumen" not in h.lower()]
+
+    mantenimientos = []
+    contador_id = 1
+
+    for nombre_hoja in hojas_a_procesar:
+        df = pd.read_excel(excel_file, sheet_name=nombre_hoja, header=None)
+
+        fila_cabecera = None
+        for idx, fila in df.iterrows():
+            texto_fila = " ".join([str(c).lower() for c in fila if pd.notna(c)])
+            if "circuito" in texto_fila and ("zonas" in texto_fila or "municipio" in texto_fila):
+                fila_cabecera = idx
+                break
+
+        if fila_cabecera is None:
+            fila_cabecera = 8
+
+        df_datos = df.iloc[fila_cabecera + 1:].copy()
+
+        for _, fila in df_datos.iterrows():
+            if fila.isna().all():
+                continue
+
+            val_provincia = str(fila[1]).strip() if pd.notna(fila[1]) else "Santiago"
+            val_municipio = str(fila[2]).strip() if pd.notna(fila[2]) else val_provincia
+            val_circuito = str(fila[5]).strip() if pd.notna(fila[5]) else "Circuito EdeNorte"
+            val_fecha_raw = fila[6]
+            val_h_ini = fila[7]
+            val_h_fin = fila[9]
+            val_zonas = str(fila[10]).strip() if pd.notna(fila[10]) else "Sectores varios"
+            val_causa = str(fila[11]).strip() if pd.notna(fila[11]) else "Mantenimiento preventivo"
+
+            if pd.isna(fila[5]) and pd.isna(fila[10]):
+                continue
+
+            fecha_texto = formatear_fecha(val_fecha_raw)
+            h_ini_fmt = formatear_hora(val_h_ini)
+            h_fin_fmt = formatear_hora(val_h_fin)
+
+            if h_ini_fmt and h_fin_fmt:
+                horario_texto = f"{h_ini_fmt} a {h_fin_fmt}"
+            elif h_ini_fmt:
+                horario_texto = h_ini_fmt
+            else:
+                horario_texto = "9:00 a.m. a 5:00 p.m."
+
+            val_zonas_limpio = val_zonas.replace("\n", ", ")
+            sectores_individuales = [
+                s.strip().rstrip(".") for s in val_zonas_limpio.split(",") if s.strip().rstrip(".")
+            ]
+
+            if not sectores_individuales:
+                sectores_individuales = [val_zonas.strip()]
+
+            for sector_individual in sectores_individuales:
+                mantenimientos.append({
+                    "id": f"edenorte_{contador_id}",
+                    "distribuidora": "EDENORTE",
+                    "provincia": val_provincia,
+                    "municipio": val_municipio,
+                    "circuito": val_circuito,
+                    "sector": sector_individual,
+                    "fecha": fecha_texto,
+                    "horario": horario_texto,
+                    "motivo": val_causa
+                })
+                contador_id += 1
+
+    print(f"[+] Total de registros extraídos de EdeNorte: {len(mantenimientos)}")
+    return mantenimientos
+
+
+def extraer_datos_edenorte(session=None):
+    """Función de entrada para main_scraper.py."""
+    if session is None:
+        session = requests.Session()
+        session.headers.update(HEADERS)
+
+    url_excel = obtener_url_ultimo_excel(session)
+    if not url_excel:
+        print("[!] No se pudo obtener el archivo de EdeNorte.")
+        return []
+
+    print(f"[*] Descargando Excel desde: {url_excel}")
+    resp_bin = session.get(url_excel, headers=HEADERS, timeout=40)
+    resp_bin.raise_for_status()
+
+    return extraer_datos_excel(resp_bin.content)
+
+
+def main():
+    try:
+        datos_edenorte = extraer_datos_edenorte()
+
+        with open("mantenimientos_edenorte.json", "w", encoding="utf-8") as f:
+            json.dump(datos_edenorte, f, ensure_ascii=False, indent=2)
+
+        print("[✓] Archivo 'mantenimientos_edenorte.json' generado correctamente.")
+
+    except Exception as e:
+        print(f"[!] Error durante la ejecución de EdeNorte: {e}")
+
+
+if __name__ == "__main__":
+    main()
