@@ -1,107 +1,250 @@
-import hashlib
+import io
 import json
 import re
-import requests
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
+import pdfplumber
+import requests
 
-URL_EDESUR = "https://www.edesur.com.do/enlaces-empresa/mantenimientos-programados/"
-
+URL_PROGRAMA = "https://edeeste.com.do/index.php/inicio/aprende-con-edeeste/programa-de-mantenimiento/"
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    )
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,"
+        " like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
 }
 
-def limpiar_texto(texto):
-    if not texto:
+
+def limpiar_texto(valor):
+    if not valor:
         return ""
-    return re.sub(r"\s+", " ", texto).strip()
+    return " ".join(str(valor).replace("\n", " ").split()).strip()
 
-def parsear_mantenimientos():
-    try:
-        response = requests.get(URL_EDESUR, headers=HEADERS, timeout=15)
-        response.raise_for_status()
-    except Exception as e:
-        print(f"Error al descargar la página de Edesur: {e}")
-        return []
 
-    soup = BeautifulSoup(response.text, "html.parser")
-    registros = []
+def extraer_fecha_cabecera(texto):
+    dias = [
+        "lunes", "martes", "miércoles", "miercoles",
+        "jueves", "viernes", "sábado", "sabado", "domingo"
+    ]
+    patron = rf"({'|'.join(dias)})\s+\d{{1,2}}\s+de\s+[a-záéíóú]+(\s+del?\s+\d{{4}})?"
+    match = re.search(patron, texto, re.IGNORECASE)
+    if match:
+        return match.group(0).strip().title()
+    return None
 
-    # 1. Extraer los días (tabs/botones) si están vinculados por contenedor
-    # Si la página renderiza todos los paneles en el HTML, buscamos los contenedores de acordeón
-    accordions = soup.find_all("div", class_=lambda c: c and "accordion" in c)
 
-    for acc in accordions:
-        # Intentar obtener la fecha asociada a este bloque o pestaña
-        # (Si el acordeón está dentro de un tab-pane o tiene fecha asociada arriba)
-        fecha_texto = "Semana actual"
-        tab_parent = acc.find_parent("div", class_=lambda c: c and ("tab-pane" in c or "fade" in c))
-        if tab_parent and tab_parent.get("id"):
-            # Buscar el botón que apunta a este tab
-            boton_tab = soup.find(attrs={"data-bs-target": f"#{tab_parent.get('id')}"}) or \
-                        soup.find(attrs={"href": f"#{tab_parent.get('id')}"})
-            if boton_tab:
-                fecha_texto = limpiar_texto(boton_tab.get_text())
+def obtener_url_ultimo_pdf(session: requests.Session):
+    print(f"[*] Consultando portal de Edeeste: {URL_PROGRAMA}")
+    resp = session.get(URL_PROGRAMA, headers=HEADERS, timeout=25)
+    resp.raise_for_status()
 
-        # 2. Recorrer cada item del acordeón (Provincias)
-        items = acc.find_all("div", class_=lambda c: c and "accordion-item" in c)
-        for item in items:
-            # Extraer provincia del h4 o accordion-button
-            h4_tag = item.find("h4")
-            provincia = limpiar_texto(h4_tag.get_text()) if h4_tag else "Santo Domingo"
+    soup = BeautifulSoup(resp.text, "html.parser")
+    url_pagina_intermedia = None
 
-            # Buscar el cuerpo del acordeón
-            body = item.find("div", class_=lambda c: c and "accordion-body" in c)
-            if not body:
+    exclusiones = [
+        "sharer", "facebook.com", "twitter.com", "addtoany.com",
+        "pluginsmarket.com", "wpdmpro.com"
+    ]
+
+    for link in soup.find_all("a", href=True):
+        href = link["href"].strip()
+        texto = link.get_text(strip=True).lower()
+
+        if any(ignore in href.lower() for ignore in exclusiones):
+            continue
+
+        if href.lower().endswith(".pdf"):
+            return urljoin(URL_PROGRAMA, href)
+
+        if "/download/" in href.lower() or "wpdmdl=" in href or "descargar" in texto:
+            url_pagina_intermedia = urljoin(URL_PROGRAMA, href)
+            break
+
+    if not url_pagina_intermedia:
+        return None
+
+    resp_sub = session.get(url_pagina_intermedia, headers=HEADERS, timeout=25)
+    resp_sub.raise_for_status()
+    html_sub = resp_sub.text
+
+    match_downloadurl = re.search(r'data-downloadurl=["\']([^"\']+)["\']', html_sub)
+    if match_downloadurl:
+        return match_downloadurl.group(1).replace("&amp;", "&")
+
+    match_wpdmdl = re.search(r"wpdmdl=(\d+)", html_sub)
+    if match_wpdmdl:
+        return f"{url_pagina_intermedia.rstrip('/')}/?wpdmdl={match_wpdmdl.group(1)}"
+
+    match_post = re.search(r'id=["\']post-(\d+)["\']', html_sub)
+    if match_post:
+        return f"{url_pagina_intermedia.rstrip('/')}/?wpdmdl={match_post.group(1)}"
+
+    return None
+
+
+def procesar_panel_tabla(crop_page, fecha_default, contador_id_inicial):
+    mantenimientos_panel = []
+    contador_id = contador_id_inicial
+
+    texto_panel = crop_page.extract_text() or ""
+    fecha_panel = extraer_fecha_cabecera(texto_panel) or fecha_default
+
+    table_settings = {
+        "vertical_strategy": "lines",
+        "horizontal_strategy": "lines",
+        "snap_y_tolerance": 4,
+        "snap_x_tolerance": 4,
+        "intersection_x_tolerance": 15,
+        "join_x_tolerance": 5,
+        "join_y_tolerance": 5,
+    }
+
+    tablas = crop_page.extract_tables(table_settings=table_settings)
+    if not tablas:
+        tablas = crop_page.extract_tables()
+
+    if not tablas:
+        return mantenimientos_panel, contador_id, fecha_panel
+
+    provincia_actual = "Santo Domingo"
+    municipio_actual = "Santo Domingo Este"
+    horario_actual = "9:20 a.m. a 5:20 p.m."
+
+    for tabla in tablas:
+        for fila in tabla:
+            if not fila or len(fila) < 5:
                 continue
 
-            # Extraer los bloques de horarios y sectores dentro de este cuerpo
-            titulos_zona = body.find_all("h5", class_=lambda c: c and "title-zona" in c)
+            celdas = [limpiar_texto(c) for c in fila]
+            texto_fila = " ".join(celdas).lower()
 
-            for tz in titulos_zona:
-                texto_horario = limpiar_texto(tz.get_text())
+            if "circuito" in texto_fila and "zonas de mantenimiento" in texto_fila:
+                continue
+            if "municipio" in texto_fila and "código" in texto_fila:
+                continue
+            if any(dia in texto_fila for dia in ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]) and len(celdas) <= 4:
+                f_ext = extraer_fecha_cabecera(" ".join(celdas))
+                if f_ext:
+                    fecha_panel = f_ext
+                continue
 
-                # Extrae el rango de hora (ej: "09:00 a. m. a 02:00 p. m.")
-                horario_match = re.search(r"(\d{1,2}:\d{2}\s*(?:a\.\s*m\.|p\.\s*m\.)\s*a\s*\d{1,2}:\d{2}\s*(?:a\.\s*m\.|p\.\s*m\.))", texto_horario, re.IGNORECASE)
-                horario = horario_match.group(1) if horario_match else texto_horario
+            val_provincia = ""
+            val_municipio = ""
+            val_circuito = ""
+            val_codigo = ""
+            val_h_inicio = ""
+            val_h_fin = ""
+            val_zonas = ""
+            val_causa = ""
 
-                # El texto de sectores suele ser el siguiente párrafo <p> no vacío
-                parrafo_sectores = tz.find_next_sibling("p")
-                while parrafo_sectores and not limpiar_texto(parrafo_sectores.get_text()):
-                    parrafo_sectores = parrafo_sectores.find_next_sibling("p")
+            if len(celdas) >= 8:
+                val_provincia = celdas[0]
+                val_municipio = celdas[1]
+                val_circuito = celdas[2]
+                val_codigo = celdas[3]
+                val_h_inicio = celdas[4]
+                val_h_fin = celdas[5]
+                val_zonas = celdas[6]
+                val_causa = celdas[7] if len(celdas) > 7 else "Mantenimiento preventivo"
+            elif len(celdas) == 7:
+                val_municipio = celdas[0]
+                val_circuito = celdas[1]
+                val_codigo = celdas[2]
+                val_h_inicio = celdas[3]
+                val_h_fin = celdas[4]
+                val_zonas = celdas[5]
+                val_causa = celdas[6]
 
-                cadena_sectores = limpiar_texto(parrafo_sectores.get_text()) if parrafo_sectores else ""
+            if val_provincia.lower() in ["santo", "domingo", "santo domingo"]:
+                val_provincia = "Santo Domingo"
 
-                # Separar los sectores por coma para que la app pueda buscar individualmente
-                lista_sectores = [s.strip() for s in cadena_sectores.split(",") if s.strip()]
+            if val_provincia:
+                provincia_actual = val_provincia
+            if val_municipio:
+                municipio_actual = val_municipio
 
-                for sector_individual in lista_sectores:
-                    # ID único para cada corte por sector
-                    id_raw = f"{provincia}-{sector_individual}-{fecha_texto}-{horario}"
-                    id_hash = hashlib.md5(id_raw.encode("utf-8")).hexdigest()[:10]
+            if val_h_inicio and val_h_fin:
+                horario_actual = f"{val_h_inicio} a {val_h_fin}"
+            elif val_h_inicio:
+                horario_actual = val_h_inicio
 
-                    registros.append({
-                        "id": id_hash,
-                        "provincia": provincia,
-                        "municipio": provincia,
-                        "sector": sector_individual,
-                        "circuito": "EDESUR",
-                        "fecha": fecha_texto,
-                        "horario": horario,
-                        "motivo": "Mantenimiento preventivo"
-                    })
+            if not val_circuito and not val_zonas:
+                continue
 
-    return registros
+            circuito_final = val_circuito if val_circuito else val_codigo
+            if not circuito_final:
+                circuito_final = "Circuito Edeeste"
 
-def main():
-    datos = parsear_mantenimientos()
-    print(f"Total de sectores con mantenimientos encontrados: {len(datos)}")
+            mantenimientos_panel.append({
+                "id": f"edeeste_{contador_id}",
+                "distribuidora": "EDEESTE",
+                "provincia": provincia_actual,
+                "municipio": municipio_actual,
+                "circuito": circuito_final,
+                "sector": val_zonas if val_zonas else "Sectores varios",
+                "fecha": fecha_panel,
+                "horario": horario_actual,
+                "motivo": val_causa if val_causa else "Mantenimiento preventivo",
+            })
+            contador_id += 1
 
-    with open("mantenimientos.json", "w", encoding="utf-8") as f:
-        json.dump(datos, f, ensure_ascii=False, indent=2)
+    return mantenimientos_panel, contador_id, fecha_panel
+
+
+def extraer_datos_edeeste():
+    """Función principal exportable para extraer los datos de Edeeste."""
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    url_pdf = obtener_url_ultimo_pdf(session)
+    if not url_pdf:
+        print("[!] No se encontró ningún PDF en Edeeste.")
+        return []
+
+    print(f"[*] Descargando PDF de Edeeste: {url_pdf}")
+    headers_descarga = HEADERS.copy()
+    headers_descarga["Referer"] = URL_PROGRAMA
+
+    resp = session.get(url_pdf, headers=headers_descarga, timeout=45, allow_redirects=True)
+    resp.raise_for_status()
+
+    if not resp.content.startswith(b"%PDF"):
+        print("[!] El archivo obtenido de Edeeste no tiene cabecera PDF.")
+        return []
+
+    pdf_bytes = io.BytesIO(resp.content)
+    mantenimientos_totales = []
+    contador_id = 1
+
+    with pdfplumber.open(pdf_bytes) as pdf:
+        for num_pag, pagina in enumerate(pdf.pages, start=1):
+            texto_p = pagina.extract_text() or ""
+            if "TRABAJOS DE MANTENIMIENTOS" in texto_p and len(texto_p) < 200:
+                continue
+
+            ancho = pagina.width
+            alto = pagina.height
+            mitad_x = ancho / 2.0
+
+            # Panel Izquierdo
+            items_izq, contador_id, _ = procesar_panel_tabla(
+                pagina.crop((0, 0, mitad_x, alto)), f"Página {num_pag} - Izq", contador_id
+            )
+            mantenimientos_totales.extend(items_izq)
+
+            # Panel Derecho
+            items_der, contador_id, _ = procesar_panel_tabla(
+                pagina.crop((mitad_x, 0, ancho, alto)), f"Página {num_pag} - Der", contador_id
+            )
+            mantenimientos_totales.extend(items_der)
+
+    print(f"[✓] Edeeste: {len(mantenimientos_totales)} cortes extraídos.")
+    return mantenimientos_totales
+
 
 if __name__ == "__main__":
-    main()
+    datos = extraer_datos_edeeste()
+    with open("mantenimientos_edeeste.json", "w", encoding="utf-8") as f:
+        json.dump(datos, f, ensure_ascii=False, indent=2)
