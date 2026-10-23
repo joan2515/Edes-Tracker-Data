@@ -1,9 +1,7 @@
-!pip install -q pandas openpyxl requests beautifulsoup4
-
 import io
 import json
 import re
-from datetime import datetime, date, time
+from datetime import date, datetime, time
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -31,7 +29,6 @@ MESES_ES = {
 
 
 def formatear_fecha(valor):
-    """Convierte fechas (date, Timestamp o str '19-10-2026') a 'Lunes 19 de octubre del 2026'."""
     if pd.isna(valor):
         return "Fecha no especificada"
 
@@ -44,9 +41,9 @@ def formatear_fecha(valor):
     partes = val_str.replace("/", "-").split("-")
     if len(partes) == 3:
         try:
-            if len(partes[0]) == 4:  # YYYY-MM-DD
+            if len(partes[0]) == 4:
                 y, m, d = int(partes[0]), int(partes[1]), int(partes[2])
-            else:  # DD-MM-YYYY
+            else:
                 d, m, y = int(partes[0]), int(partes[1]), int(partes[2])
             dt = date(y, m, d)
             nom_dia = DIAS_SEMANA.get(dt.weekday(), "")
@@ -59,7 +56,6 @@ def formatear_fecha(valor):
 
 
 def formatear_hora(valor):
-    """Convierte horas (time, Timestamp o str '16:00') al formato legible '4:00 p.m.'."""
     if pd.isna(valor):
         return ""
 
@@ -81,7 +77,6 @@ def formatear_hora(valor):
 
 
 def obtener_url_ultimo_excel(session: requests.Session):
-    """Rastrea la página de EdeNorte para ubicar la publicación semanal y su archivo Excel."""
     print(f"[*] Consultando portal de EdeNorte: {URL_EDENORTE}")
     resp = session.get(URL_EDENORTE, headers=HEADERS, timeout=25)
     resp.raise_for_status()
@@ -89,17 +84,14 @@ def obtener_url_ultimo_excel(session: requests.Session):
     soup = BeautifulSoup(resp.text, "html.parser")
     url_publicacion = None
 
-    # 1. Buscar la entrada de la galería que contenga el enlace al post de mantenimientos
     for link in soup.find_all("a", href=True):
         href = link["href"].strip()
         texto = link.get_text(strip=True).lower()
-        clases = link.get("class", [])
 
         if "mantenimientos-programados" in href.lower() or "mantenimiento" in texto:
             url_publicacion = urljoin(URL_EDENORTE, href)
             break
 
-    # Si no está en el index, buscar en la sección de mantenimiento
     if not url_publicacion:
         url_seccion = urljoin(URL_EDENORTE, "mantenimiento-de-redes/")
         resp_sec = session.get(url_seccion, headers=HEADERS, timeout=25)
@@ -108,50 +100,51 @@ def obtener_url_ultimo_excel(session: requests.Session):
             for link in soup_sec.find_all("a", href=True):
                 href = link["href"].strip()
                 if "mantenimientos-programados" in href.lower():
-                    url_publicacion = urljoin(URL_seccion, href)
+                    url_publicacion = urljoin(url_seccion, href)
                     break
 
     if not url_publicacion:
-        print("[!] No se encontró el enlace de la publicación de la semana.")
         return None
 
-    print(f"[*] Entrando a la publicación semanal: {url_publicacion}")
     resp_post = session.get(url_publicacion, headers=HEADERS, timeout=25)
     resp_post.raise_for_status()
-
     soup_post = BeautifulSoup(resp_post.text, "html.parser")
 
-    # 2. Localizar el enlace de descarga que termine en .xlsx o .xls
     for link in soup_post.find_all("a", href=True):
         href = link["href"].strip()
         if href.lower().endswith(".xlsx") or href.lower().endswith(".xls"):
-            url_excel = urljoin(url_publicacion, href)
-            print(f"[✓] Enlace de descarga de Excel encontrado: {url_excel}")
-            return url_excel
+            return urljoin(url_publicacion, href)
 
-    print("[!] No se encontró enlace directo a Excel (.xlsx) en el post.")
     return None
 
 
-def extraer_datos_excel(contenido_bytes):
-    """Lee el libro de Excel y normaliza los mantenimientos a formato JSON."""
-    excel_file = pd.ExcelFile(io.BytesIO(contenido_bytes))
-    print(f"[*] Hojas disponibles en el archivo: {excel_file.sheet_names}")
+def extraer_datos_edenorte():
+    """Función principal exportable para extraer los datos de EdeNorte."""
+    session = requests.Session()
+    session.headers.update(HEADERS)
 
-    # Prioridad: 'Publicacion Externa' unifica todas las provincias en una sola hoja
+    url_excel = obtener_url_ultimo_excel(session)
+    if not url_excel:
+        print("[!] No se encontró enlace a Excel en EdeNorte.")
+        return []
+
+    print(f"[*] Descargando Excel de EdeNorte: {url_excel}")
+    resp_bin = session.get(url_excel, headers=HEADERS, timeout=40)
+    resp_bin.raise_for_status()
+
+    excel_file = pd.ExcelFile(io.BytesIO(resp_bin.content))
+
     if "Publicacion Externa" in excel_file.sheet_names:
-        hojas_a_procesar = ["Publicacion Externa"]
+        hojas = ["Publicacion Externa"]
     else:
-        # Fallback si cambia el nombre de la hoja consolidada
-        hojas_a_procesar = [h for h in excel_file.sheet_names if "resumen" not in h.lower()]
+        hojas = [h for h in excel_file.sheet_names if "resumen" not in h.lower()]
 
     mantenimientos = []
     contador_id = 1
 
-    for nombre_hoja in hojas_a_procesar:
+    for nombre_hoja in hojas:
         df = pd.read_excel(excel_file, sheet_name=nombre_hoja, header=None)
 
-        # Localizar la fila de cabecera que contenga 'Circuito' y 'Municipio' o 'Zonas'
         fila_cabecera = None
         for idx, fila in df.iterrows():
             texto_fila = " ".join([str(c).lower() for c in fila if pd.notna(c)])
@@ -160,16 +153,14 @@ def extraer_datos_excel(contenido_bytes):
                 break
 
         if fila_cabecera is None:
-            fila_cabecera = 8  # Fila 8 por defecto en el formato oficial de EdeNorte
+            fila_cabecera = 8
 
-        # Procesar los datos desde la fila posterior a los títulos
         df_datos = df.iloc[fila_cabecera + 1:].copy()
 
         for _, fila in df_datos.iterrows():
             if fila.isna().all():
                 continue
 
-            # Mapeo según la plantilla oficial de EdeNorte
             val_provincia = str(fila[1]).strip() if pd.notna(fila[1]) else "Santiago"
             val_municipio = str(fila[2]).strip() if pd.notna(fila[2]) else val_provincia
             val_circuito = str(fila[5]).strip() if pd.notna(fila[5]) else "Circuito EdeNorte"
@@ -179,7 +170,6 @@ def extraer_datos_excel(contenido_bytes):
             val_zonas = str(fila[10]).strip() if pd.notna(fila[10]) else "Sectores varios"
             val_causa = str(fila[11]).strip() if pd.notna(fila[11]) else "Mantenimiento preventivo"
 
-            # Omitir si tanto el circuito como las zonas están vacíos
             if pd.isna(fila[5]) and pd.isna(fila[10]):
                 continue
 
@@ -203,38 +193,15 @@ def extraer_datos_excel(contenido_bytes):
                 "sector": val_zonas,
                 "fecha": fecha_texto,
                 "horario": horario_texto,
-                "motivo": val_causa
+                "motivo": val_causa,
             })
             contador_id += 1
 
-    print(f"[+] Total de mantenimientos extraídos de EdeNorte: {len(mantenimientos)}")
+    print(f"[✓] EdeNorte: {len(mantenimientos)} cortes extraídos.")
     return mantenimientos
 
 
-def main():
-    try:
-        session = requests.Session()
-        session.headers.update(HEADERS)
-
-        url_excel = obtener_url_ultimo_excel(session)
-        if not url_excel:
-            print("[!] No se pudo obtener la URL del Excel.")
-            return
-
-        print(f"[*] Descargando archivo Excel desde: {url_excel}")
-        resp_bin = session.get(url_excel, headers=HEADERS, timeout=40)
-        resp_bin.raise_for_status()
-
-        datos_edenorte = extraer_datos_excel(resp_bin.content)
-
-        with open("mantenimientos_edenorte.json", "w", encoding="utf-8") as f:
-            json.dump(datos_edenorte, f, ensure_ascii=False, indent=2)
-
-        print("[✓] Archivo 'mantenimientos_edenorte.json' generado exitosamente.")
-
-    except Exception as e:
-        print(f"[!] Error durante el raspado de EdeNorte: {e}")
-
-
 if __name__ == "__main__":
-    main()
+    datos = extraer_datos_edenorte()
+    with open("mantenimientos_edenorte.json", "w", encoding="utf-8") as f:
+        json.dump(datos, f, ensure_ascii=False, indent=2)
