@@ -1,5 +1,3 @@
-!pip install -q pandas openpyxl requests beautifulsoup4
-
 import io
 import json
 import re
