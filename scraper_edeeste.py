@@ -17,25 +17,8 @@ HEADERS = {
 }
 
 
-def limpiar_texto(valor):
-    if not valor:
-        return ""
-    return " ".join(str(valor).replace("\n", " ").split()).strip()
-
-
-def extraer_fecha_cabecera(texto):
-    dias = [
-        "lunes", "martes", "miércoles", "miercoles",
-        "jueves", "viernes", "sábado", "sabado", "domingo"
-    ]
-    patron = rf"({'|'.join(dias)})\s+\d{{1,2}}\s+de\s+[a-záéíóú]+(\s+del?\s+\d{{4}})?"
-    match = re.search(patron, texto, re.IGNORECASE)
-    if match:
-        return match.group(0).strip().title()
-    return None
-
-
 def obtener_url_ultimo_pdf(session: requests.Session):
+    """Rastrea el portal de Edeeste y construye la URL directa de descarga de WPDM."""
     print(f"[*] Consultando portal de Edeeste: {URL_PROGRAMA}")
     resp = session.get(URL_PROGRAMA, headers=HEADERS, timeout=25)
     resp.raise_for_status()
@@ -44,10 +27,15 @@ def obtener_url_ultimo_pdf(session: requests.Session):
     url_pagina_intermedia = None
 
     exclusiones = [
-        "sharer", "facebook.com", "twitter.com", "addtoany.com",
-        "pluginsmarket.com", "wpdmpro.com"
+        "sharer",
+        "facebook.com",
+        "twitter.com",
+        "addtoany.com",
+        "pluginsmarket.com",
+        "wpdmpro.com",
     ]
 
+    # 1. Encontrar la tarjeta de la semana actual
     for link in soup.find_all("a", href=True):
         href = link["href"].strip()
         texto = link.get_text(strip=True).lower()
@@ -58,33 +46,79 @@ def obtener_url_ultimo_pdf(session: requests.Session):
         if href.lower().endswith(".pdf"):
             return urljoin(URL_PROGRAMA, href)
 
-        if "/download/" in href.lower() or "wpdmdl=" in href or "descargar" in texto:
+        if (
+            "/download/" in href.lower()
+            or "wpdmdl=" in href
+            or "descargar" in texto
+        ):
             url_pagina_intermedia = urljoin(URL_PROGRAMA, href)
             break
 
     if not url_pagina_intermedia:
+        print("[!] No se encontró enlace al documento semanal.")
         return None
 
+    print(f"[*] Siguiendo página intermedia: {url_pagina_intermedia}")
     resp_sub = session.get(url_pagina_intermedia, headers=HEADERS, timeout=25)
     resp_sub.raise_for_status()
     html_sub = resp_sub.text
 
+    # 2. Buscar directamente con Regex la URL dentro de data-downloadurl
     match_downloadurl = re.search(r'data-downloadurl=["\']([^"\']+)["\']', html_sub)
     if match_downloadurl:
-        return match_downloadurl.group(1).replace("&amp;", "&")
+        url_descarga = match_downloadurl.group(1).replace("&amp;", "&")
+        print(f"[✓] Encontrada en data-downloadurl: {url_descarga}")
+        return url_descarga
 
+    # 3. Buscar el parámetro wpdmdl en el contenido
     match_wpdmdl = re.search(r"wpdmdl=(\d+)", html_sub)
     if match_wpdmdl:
-        return f"{url_pagina_intermedia.rstrip('/')}/?wpdmdl={match_wpdmdl.group(1)}"
+        id_descarga = match_wpdmdl.group(1)
+        url_construida = f"{url_pagina_intermedia.rstrip('/')}/?wpdmdl={id_descarga}"
+        print(f"[✓] URL construida por ID WPDM ({id_descarga}): {url_construida}")
+        return url_construida
 
+    # 4. Buscar el ID del post en la etiqueta <article id="post-XXXXX">
     match_post = re.search(r'id=["\']post-(\d+)["\']', html_sub)
     if match_post:
-        return f"{url_pagina_intermedia.rstrip('/')}/?wpdmdl={match_post.group(1)}"
+        id_post = match_post.group(1)
+        url_construida = f"{url_pagina_intermedia.rstrip('/')}/?wpdmdl={id_post}"
+        print(f"[✓] URL construida por ID de artículo ({id_post}): {url_construida}")
+        return url_construida
 
+    print("[!] No se pudo encontrar el enlace real de descarga dentro de la página.")
+    return None
+
+
+def limpiar_texto(valor):
+    """Elimina saltos de línea y normaliza espacios en blanco."""
+    if not valor:
+        return ""
+    return " ".join(str(valor).replace("\n", " ").split()).strip()
+
+
+def extraer_fecha_cabecera(texto):
+    """Busca franjas de fecha diaria (ej. LUNES 19 DE OCTUBRE, MIERCOLES 21 DE OCTUBRE)."""
+    dias = [
+        "lunes",
+        "martes",
+        "miércoles",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sábado",
+        "sabado",
+        "domingo",
+    ]
+    patron = rf"({'|'.join(dias)})\s+\d{{1,2}}\s+de\s+[a-záéíóú]+(\s+del?\s+\d{{4}})?"
+    match = re.search(patron, texto, re.IGNORECASE)
+    if match:
+        return match.group(0).strip().title()
     return None
 
 
 def procesar_panel_tabla(crop_page, fecha_default, contador_id_inicial):
+    """Extrae los mantenimientos de medio panel horizontal de forma aislada."""
     mantenimientos_panel = []
     contador_id = contador_id_inicial
 
@@ -120,11 +154,26 @@ def procesar_panel_tabla(crop_page, fecha_default, contador_id_inicial):
             celdas = [limpiar_texto(c) for c in fila]
             texto_fila = " ".join(celdas).lower()
 
+            # Omitir filas de encabezado o divisiones de día
             if "circuito" in texto_fila and "zonas de mantenimiento" in texto_fila:
                 continue
             if "municipio" in texto_fila and "código" in texto_fila:
                 continue
-            if any(dia in texto_fila for dia in ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]) and len(celdas) <= 4:
+            if (
+                any(
+                    dia in texto_fila
+                    for dia in [
+                        "lunes",
+                        "martes",
+                        "miércoles",
+                        "jueves",
+                        "viernes",
+                        "sábado",
+                        "domingo",
+                    ]
+                )
+                and len(celdas) <= 4
+            ):
                 f_ext = extraer_fecha_cabecera(" ".join(celdas))
                 if f_ext:
                     fecha_panel = f_ext
@@ -147,7 +196,9 @@ def procesar_panel_tabla(crop_page, fecha_default, contador_id_inicial):
                 val_h_inicio = celdas[4]
                 val_h_fin = celdas[5]
                 val_zonas = celdas[6]
-                val_causa = celdas[7] if len(celdas) > 7 else "Mantenimiento preventivo"
+                val_causa = (
+                    celdas[7] if len(celdas) > 7 else "Mantenimiento preventivo"
+                )
             elif len(celdas) == 7:
                 val_municipio = celdas[0]
                 val_circuito = celdas[1]
@@ -157,6 +208,7 @@ def procesar_panel_tabla(crop_page, fecha_default, contador_id_inicial):
                 val_zonas = celdas[5]
                 val_causa = celdas[6]
 
+            # Reconstruir "Santo Domingo" cuando se divida verticalmente en dos filas
             if val_provincia.lower() in ["santo", "domingo", "santo domingo"]:
                 val_provincia = "Santo Domingo"
 
@@ -186,65 +238,102 @@ def procesar_panel_tabla(crop_page, fecha_default, contador_id_inicial):
                 "sector": val_zonas if val_zonas else "Sectores varios",
                 "fecha": fecha_panel,
                 "horario": horario_actual,
-                "motivo": val_causa if val_causa else "Mantenimiento preventivo",
+                "motivo": (
+                    val_causa
+                    if val_causa
+                    else "Mantenimiento preventivo y adecuación de redes"
+                ),
             })
             contador_id += 1
 
     return mantenimientos_panel, contador_id, fecha_panel
 
 
-def extraer_datos_edeeste():
-    """Función principal exportable para extraer los datos de Edeeste."""
-    session = requests.Session()
-    session.headers.update(HEADERS)
-
-    url_pdf = obtener_url_ultimo_pdf(session)
-    if not url_pdf:
-        print("[!] No se encontró ningún PDF en Edeeste.")
-        return []
-
-    print(f"[*] Descargando PDF de Edeeste: {url_pdf}")
+def extraer_datos_pdf(url_pdf, session: requests.Session):
+    """Descarga el PDF y procesa los dos paneles paralelos (Izq/Der) de cada página."""
+    print(f"[*] Descargando flujo binario desde: {url_pdf}")
     headers_descarga = HEADERS.copy()
     headers_descarga["Referer"] = URL_PROGRAMA
 
-    resp = session.get(url_pdf, headers=headers_descarga, timeout=45, allow_redirects=True)
+    resp = session.get(
+        url_pdf, headers=headers_descarga, timeout=45, allow_redirects=True
+    )
     resp.raise_for_status()
 
     if not resp.content.startswith(b"%PDF"):
-        print("[!] El archivo obtenido de Edeeste no tiene cabecera PDF.")
-        return []
+        snippet = resp.text[:250].replace("\n", " ")
+        raise ValueError(f"El servidor devolvió contenido no binario: {snippet}")
 
     pdf_bytes = io.BytesIO(resp.content)
     mantenimientos_totales = []
     contador_id = 1
 
     with pdfplumber.open(pdf_bytes) as pdf:
+        print(f"[*] Total de páginas detectadas: {len(pdf.pages)}")
+
         for num_pag, pagina in enumerate(pdf.pages, start=1):
             texto_p = pagina.extract_text() or ""
+            # Omitir portada institucional
             if "TRABAJOS DE MANTENIMIENTOS" in texto_p and len(texto_p) < 200:
+                print(f"    - Página {num_pag}: Portada omitida")
                 continue
 
             ancho = pagina.width
             alto = pagina.height
             mitad_x = ancho / 2.0
 
-            # Panel Izquierdo
-            items_izq, contador_id, _ = procesar_panel_tabla(
-                pagina.crop((0, 0, mitad_x, alto)), f"Página {num_pag} - Izq", contador_id
+            # 1. Panel Izquierdo (ej. Lunes / Martes)
+            bbox_izq = (0, 0, mitad_x, alto)
+            panel_izq = pagina.crop(bbox_izq)
+            items_izq, contador_id, fecha_izq = procesar_panel_tabla(
+                panel_izq, "Semana - Izq", contador_id
+            )
+            print(
+                f"    - Página {num_pag} [Panel Izquierdo - {fecha_izq}]:"
+                f" {len(items_izq)} mantenimientos"
             )
             mantenimientos_totales.extend(items_izq)
 
-            # Panel Derecho
-            items_der, contador_id, _ = procesar_panel_tabla(
-                pagina.crop((mitad_x, 0, ancho, alto)), f"Página {num_pag} - Der", contador_id
+            # 2. Panel Derecho (ej. Miércoles / Jueves)
+            bbox_der = (mitad_x, 0, ancho, alto)
+            panel_der = pagina.crop(bbox_der)
+            items_der, contador_id, fecha_der = procesar_panel_tabla(
+                panel_der, "Semana - Der", contador_id
+            )
+            print(
+                f"    - Página {num_pag} [Panel Derecho - {fecha_der}]:"
+                f" {len(items_der)} mantenimientos"
             )
             mantenimientos_totales.extend(items_der)
 
-    print(f"[✓] Edeeste: {len(mantenimientos_totales)} cortes extraídos.")
+    print(f"[+] Total de mantenimientos extraídos de Edeeste: {len(mantenimientos_totales)}")
     return mantenimientos_totales
 
 
-if __name__ == "__main__":
-    datos = extraer_datos_edeeste()
+def extraer_datos_edeeste():
+    """Función de entrada para main_scraper.py."""
+    try:
+        session = requests.Session()
+        session.headers.update(HEADERS)
+
+        url_pdf = obtener_url_ultimo_pdf(session)
+        if not url_pdf:
+            print("[!] No se pudo obtener la URL de descarga del PDF en Edeeste.")
+            return []
+
+        return extraer_datos_pdf(url_pdf, session)
+    except Exception as e:
+        print(f"[!] Error al procesar Edeeste: {e}")
+        return []
+
+
+def main():
+    datos_edeeste = extraer_datos_edeeste()
     with open("mantenimientos_edeeste.json", "w", encoding="utf-8") as f:
-        json.dump(datos, f, ensure_ascii=False, indent=2)
+        json.dump(datos_edeeste, f, ensure_ascii=False, indent=2)
+
+    print("[✓] Archivo 'mantenimientos_edeeste.json' guardado exitosamente.")
+
+
+if __name__ == "__main__":
+    main()
