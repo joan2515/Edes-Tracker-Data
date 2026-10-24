@@ -9,6 +9,35 @@ jobs:
   scrape-and-publish:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar Tesseract OCR
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-spa
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar Scraping
+        env:
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
+        run: python main_scraper.py
+
+      - name: Commit y push de mantenimientos.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add mantenimientos.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Actualización de mantenimientos [skip ci]" && git push)
       - name: Clonar repositorio
         uses: actions/checkout@v4
 
